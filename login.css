@@ -1,0 +1,79 @@
+body{
+    background: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8ZGFya3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background: black;
+    color: lightyellow;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 0.5em 0.5em;
+}
+button:hover{
+    border-color: rgb(166, 245, 113); 
+    box-shadow: 0 0.5em 2em -0.8em rgb(166, 245, 113);
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
+
+.wrap{
+    max-width: 500px;
+    border-radius: 30px;
+    margin: auto;
+    box-sizing: border-box;
+    background: rgba(39, 14, 5, 0.384);
+    padding: 40px;
+    margin-top: 50px;
+    color: cornsilk;
+    opacity: 0.8;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Langar', cursive;
+}
+
+input{
+     width: 100%;
+     padding: 5px 8px;
+     box-sizing: border-box;
+     border-radius: 10px;
+     background: #f0efeb;
+     border: none;
+     outline: none;
+     border-bottom: 3px solid black;
+     font-weight: bolder; 
+     margin-bottom: 15px;
+     margin-top: 0px;
+     opacity: 0.7;
+}
+
+button{
+    width: 100%;
+    outline: none;
+    background-color: #a5a58d;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    border-bottom: 3px solid;
+    border-radius: 10px;
+    opacity: 0.9;
+    font-size: 1.1em;
+}
+
+button:hover{
+    border-color: rgb(166, 245, 113); 
+    box-shadow: 0 0.4em 2em -0.8em rgb(166, 245, 113);
+    transform: translateY(-0.2em);
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+input:hover{
+    border-color: rgb(166, 245, 113); 
+    box-shadow: 0 0.5em 2em -0.8em rgb(166, 245, 113);
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
